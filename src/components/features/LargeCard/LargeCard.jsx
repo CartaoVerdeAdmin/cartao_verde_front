@@ -188,7 +188,7 @@ export default function LargeCard({ data, onBuy, pageType }) {
               onChange={(e) => setQuantity(e.target.value)}
             />
           )}
-          <StyledButton onClick={onBuy ? onBuy : buyTree}>
+          <StyledButton onClick={onBuy || buyTree}>
             {buttonTranslation || buttonText}
           </StyledButton>
         </DivButton>

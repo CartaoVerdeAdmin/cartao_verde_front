@@ -118,7 +118,7 @@ export default function MyTrees() {
                     pageType="mytrees"
                     id="card"
                     data={card}
-                    onBuy={() => generateCertificate()}
+                    onBuy={() => generateCertificate(card._id)}
                   />
                 </Line>
               </>

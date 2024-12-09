@@ -107,7 +107,7 @@ export default function ModalAcceptTerms({ modal, onClose, price, years }) {
   });
 
   useEffect(() => {
-    if (res?.link) {
+    if (res?.link && res?.status !== "approved") {
       setTimeout(() => {
         window.open(res.link);
       }, 3000);
