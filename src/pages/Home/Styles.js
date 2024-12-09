@@ -2,8 +2,6 @@ import styled from "styled-components";
 import { breakpoints, colors } from "../../styles/stylesVariables";
 
 export const ContainerCarousel = styled.div`
-  padding-top: 20px;
-
   width: 100%;
   align-items: center;
   justify-content: center;
