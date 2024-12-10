@@ -172,10 +172,10 @@ export default function LoginSocialArea() {
           )}
         </Select>
         <SocialImg href="https://www.instagram.com/prefeiturabd/">
-          <img src={Instagram} alt="Logo Instagram" width="60%"></img>
+          <img src={Instagram} alt="Logo Instagram" width="60%" class="socialLogo"></img>
         </SocialImg>
         <SocialImg href="http://wa.me/+31992740294">
-          <img src={Whatsapp} alt="Logo Whatsapp" width="60%"></img>
+          <img src={Whatsapp} alt="Logo Whatsapp" width="60%" class="socialLogo"></img>
         </SocialImg>
       </SocialMedias>
       <ModalStyle

@@ -5,6 +5,7 @@ import {
   SocialMedias,
   Column,
   ContainerLogo,
+  Line,
 } from "./Styles";
 import {
   LogoCartaoV,
@@ -21,8 +22,9 @@ export default function Footer() {
         <Logo src={LogoCartaoV}></Logo>
       </ContainerLogo>
       <Info>
-        casatuetimbua@gmail.com <br />
-        (37) 9 9634 9759{" "}
+        <Line>CNPJ: 57.741.400/0001-75</Line>
+        <Line>Razão Social: CARTAO VERDE FLORESTA EM PE LTDA</Line>
+        <Line>Data de criação do site: 2024</Line>
       </Info>
       <SocialMedias>
         <Column>

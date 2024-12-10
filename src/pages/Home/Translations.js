@@ -42,11 +42,11 @@ export function TranslateTextHeader({ globalLanguage }) {
     whyChooseText1 =
       "Preservação Ativa: Cada concessão contribui diretamente para a manutenção e conservação das áreas de reserva, ajudando a proteger a biodiversidade e combater as mudanças climáticas.";
     whyChooseText2 =
-      "Transparência e Confiabilidade: Oferecemos informações detalhadas sobre a localização e a espécie da árvore concedida, além de relatórios periódicos sobre o estado de conservação da área.";
+      "Transparência e Confiabilidade: Oferecemos informações detalhadas sobre a localização e relatórios periódicos sobre o estado de conservação da área.";
     whyChooseText3 =
-      "Conexão com a Natureza: Ao adquirir uma concessão, você estabelece uma conexão pessoal com a natureza, podendo visitar a árvore e participar ativamente de programas de conscientização ambiental.";
+      "Conexão com a Natureza: Ao adquirir uma concessão, você estabelece uma conexão pessoal com a natureza, podendo visitar a reserva florestal e participar ativamente de programas de conscientização ambiental.";
     visionTitle = "Visão ";
-    visionText = `Nossa missão é incentivar indivíduos e empresas a se engajarem na proteção do meio ambiente, oferecendo uma maneira acessível e transparente de contribuir para a preservação de florestas através da adoção de árvores. Buscamos criar um impacto positivo duradouro, promovendo a conscientização e ações concretas para enfrentar os desafios das mudanças climáticas.`;
+    visionText = `Nossa visão é criar um mundo onde a preservação das florestas é uma prioridade global e onde cada pessoa reconhece seu papel na proteção do meio ambiente. Almejamos ser uma plataforma líder em adoção de árvores, conectando comunidades em todo o mundo em prol de um objetivo comum: um planeta mais verde e sustentável para as futuras gerações.`;
     valuesTitle = "Valores";
     valuesText = `1 - Sustentabilidade: Comprometemo-nos a agir de forma ambientalmente responsável, promovendo práticas sustentáveis em todas as nossas operações.`;
     valuesTextPt2 = `2 - Transparência: Valorizamos a transparência em todas as nossas ações, desde a captação de recursos até o monitoramento e relato do progresso de nossos projetos.`;

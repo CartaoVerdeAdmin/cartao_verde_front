@@ -36,10 +36,19 @@ export const Info = styled.div`
   justify-content: center;
   text-align: center;
   margin-right: 2rem;
+  color: #FFFFFF;
 
   @media (max-width: ${breakpoints.mobile}) {
-    display: none;
+    font-size: 0.8em;
+    display: block;
   }
+`;
+
+export const Line = styled.p`
+  margin: 0; 
+  padding: 0; 
+  line-height: 1.2; 
+  text-align: left;
 `;
 
 export const SocialMedias = styled.div`
@@ -55,7 +64,7 @@ export const SocialMedias = styled.div`
     display: none;
   }
   @media (max-width: ${breakpoints.mobile}) {
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 10px;
   }

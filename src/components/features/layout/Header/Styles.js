@@ -66,8 +66,14 @@ export const SocialImg = styled.a`
   justify-content: center; /* Alinha horizontalmente ao centro */
   align-items: center;
   width: auto;
-  @media (max-width: 300px) {
+  .socialLogo{
+    display: none;
+  }
+  @media (max-width: 42 0px) {
     width: auto;
+    .socialLogo{
+      display: none;
+    }
   }
 `;
 
