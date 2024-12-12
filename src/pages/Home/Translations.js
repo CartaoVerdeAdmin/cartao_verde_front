@@ -13,11 +13,13 @@ export function TranslateTextHeader({ globalLanguage }) {
   let whyChooseText1;
   let whyChooseText2;
   let whyChooseText3;
+  let button2Text;
 
   if (globalLanguage === "EN") {
     missionTitle = "Mission";
     missionText = `Our mission is to encourage individuals and companies to engage in environmental protection by offering an accessible and transparent way to contribute to forest preservation through tree adoption. We strive to create a lasting positive impact by promoting awareness and taking concrete actions to address the challenges of climate change.`;
     buttonText = "Know More";
+    button2Text = "How to colaborate?";
 
     whyChooseTitle = "Why Choose the Green Card Forest Standing:";
     whyChooseText1 =
@@ -38,6 +40,7 @@ export function TranslateTextHeader({ globalLanguage }) {
     missionTitle = "Missão";
     missionText = `Nossa missão é incentivar indivíduos e empresas a se engajarem na proteção do meio ambiente, oferecendo uma maneira acessível e transparente de contribuir para a preservação de florestas através da adoção de árvores. Buscamos criar um impacto positivo duradouro, promovendo a conscientização e ações concretas para enfrentar os desafios das mudanças climáticas.`;
     buttonText = "Saiba Mais";
+    button2Text = "Como colaborar?";
     whyChooseTitle = "Por que Escolher a Cartão Verde Floresta em Pé:";
     whyChooseText1 =
       "Preservação Ativa: Cada concessão contribui diretamente para a manutenção e conservação das áreas de reserva, ajudando a proteger a biodiversidade e combater as mudanças climáticas.";
@@ -56,6 +59,7 @@ export function TranslateTextHeader({ globalLanguage }) {
     missionTitle = "Misión";
     missionText = `Nuestra misión es incentivar a individuos y empresas a comprometerse con la protección del medio ambiente, ofreciendo una forma accesible y transparente de contribuir a la preservación de los bosques a través de la adopción de árboles. Buscamos crear un impacto positivo duradero, promoviendo la conciencia y acciones concretas para enfrentar los desafíos del cambio climático.`;
     buttonText = "Sepa mas";
+    button2Text = "¿Cómo colaborar?";
 
     whyChooseTitle = "Por qué elegir el Cartão Verde Bosque en Pie:";
     whyChooseText1 =
@@ -89,5 +93,6 @@ export function TranslateTextHeader({ globalLanguage }) {
     valuesTextPt3,
     valuesTextPt4,
     buttonText,
+    button2Text,
   };
 }
