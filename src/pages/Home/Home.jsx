@@ -56,9 +56,7 @@ export default function Home() {
           <Title>{translations.visionTitle}</Title>
           <p>{translations.visionText}</p>
           <VideoSmall videoUrl="https://www.youtube.com/embed/x0jCZj9UtiM?autoplay=1&mute=1&loop=1&playlist=x0jCZj9UtiM&controls=0&modestbranding=1" />
-          <Button onClick={() => navigate("/comprar-arvores")}>
-            {translations.button2Text}
-          </Button>
+          
         </Column>
       </Section>
 
@@ -72,6 +70,11 @@ export default function Home() {
         </Column>
         <VideoLarger videoUrl="https://www.youtube.com/embed/-4K-Y8AcVH8?si=y_oagwIQbA8G8T3A&autoplay=1&mute=1&loop=1&playlist=-4K-Y8AcVH8&controls=0&modestbranding=1" />
 
+      </Section>
+      <Section>
+        <Button onClick={() => navigate("/comprar-arvores")}>
+              {translations.button2Text}
+        </Button>
       </Section>
     </Container>
   );

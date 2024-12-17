@@ -10,6 +10,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-evenly;
   padding: 0 1rem;
+  margin-bottom: 1em;
 
   @media (max-width: ${breakpoints.smallTablet}) {
     padding: 0 1 rem;
@@ -66,9 +67,6 @@ export const SocialImg = styled.a`
   justify-content: center; /* Alinha horizontalmente ao centro */
   align-items: center;
   width: auto;
-  .socialLogo{
-    display: none;
-  }
   @media (max-width: 42 0px) {
     width: auto;
     .socialLogo{

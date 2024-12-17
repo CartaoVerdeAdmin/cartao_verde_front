@@ -20,9 +20,6 @@ export const Container = styled.div`
     @media (max-width: ${breakpoints.tablet}) {
       font-size: 1rem;
     }
-  .boldText{
-    font-weight: bold;
-  }
     @media (max-width: ${breakpoints.mobile}) {
       font-size: 0.8rem;
       font-weight: bold;
