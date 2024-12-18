@@ -1,5 +1,6 @@
 import { Carousel } from "react-responsive-carousel";
 import { StyledImage } from "./Styles";
+import {CarouselImage1, CarouselImage2, CarouselImage3 } from "../../../assets/index";
 
 export default function DemoCarousel() {
   return (
@@ -11,11 +12,11 @@ export default function DemoCarousel() {
       infiniteLoop={true}
       dynamicHeight={false}
     >
-      <StyledImage src="/src/assets/Home/background.png" alt="slide 1" />
+      <StyledImage src= {CarouselImage1} alt="slide 1" />
 
-      <StyledImage src="/src/assets/Home/EventNotFound.png" alt="slide 2" />
+      <StyledImage src= {CarouselImage2} alt="slide 2" />
 
-      <StyledImage src="/src/assets/CartPage/Tree.png" alt="slide 3" />
+      <StyledImage src= {CarouselImage3} alt="slide 3" />
     </Carousel>
   );
 }

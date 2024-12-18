@@ -1,8 +1,10 @@
 export { default as Add } from "./Add.svg";
 export { default as FirstStoryImage } from "./FirstStoryImage.svg";
 
-export { default as background } from "./Home/background.png";
 export { default as Icon } from "./Home/Icon.svg";
+export {default as CarouselImage1} from "./Home/Image1.jpg"
+export {default as CarouselImage2} from "./Home/Image2.jpg"
+export {default as CarouselImage3} from "./Home/Image3.jpg"
 
 export { default as LogoCartaoV } from "./Footer/LogoCartaoVerde.svg";
 

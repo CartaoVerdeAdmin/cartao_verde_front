@@ -33,34 +33,30 @@ export function TranslateTextModal({ globalLanguage }) {
   if (globalLanguage == "EN") {
     toastSuccessPurchase = "Purchase completed successfully";
     Title = "Terms of Acceptance and Privacy";
-    WelcomeTitle = "Welcome to the Standing Forest Green Card website.";
-    WelcomeText =
-      "By accessing and using this website, you agree to the terms and conditions described below. If you do not agree with any of these terms, please do not use this website.";
-    Acceptance1 = "Acceptance of Terms";
-    Acceptance1Text =
-      "By using the Standing Forest Green Card website, you agree to comply with all the terms and conditions set forth in this acceptance of terms. These terms may be periodically modified, and continued use of the site will imply acceptance of the changes made.";
-    UseofSite = "Use of the Site";
-    UseofSiteText =
-      "This site is intended for personal and informational use. Any commercial use of the content presented here, without proper authorization, is strictly prohibited. You agree not to modify, copy, distribute, transmit, display, perform, reproduce, publish, license, create derivative works from, transfer, or sell any information, software, products, or services obtained from this site.";
-    IntellectualProperty = "Intellectual Property";
-    IntellectualPropertyText =
-      "All content on this site, including text, images, graphics, logos, icons, videos, audios, and other materials, is protected by copyright laws and other intellectual property laws. Unauthorized use of the content may violate these laws and result in civil and criminal penalties.";
-    Privacy = "Privacy";
-    PrivacyText =
-      "Standing Forest Green Card values your privacy. Information collected during site navigation or interactions will be treated according to our Privacy Policy, available on the website.";
-    LimitationofLiability = "Limitation of Liability";
-    LimitationofLiabilityText =
-      "Standing Forest Green Card is not responsible for direct, indirect, incidental, consequential, or punitive damages resulting from the use or inability to use this site. The company does not guarantee that the site will be error-free or uninterrupted, nor that any information provided will be accurate or complete.";
-    LinkstoThirdPartySites = "Links to Third-Party Sites";
-    LinkstoThirdPartySitesText =
-      "This site may contain links to third-party websites, which are provided solely for the convenience of the user. Standing Forest Green Card does not endorse or is responsible for the content of these sites, nor for any damages or losses resulting from their use.";
-    GoverningLaw = "Governing Law";
-    GoverningLawText =
-      "This acceptance of terms is governed by the laws of the Federative Republic of Brazil. Any disputes arising from the use of the site will be submitted to the competent courts of Brazil.";
-    Contact = "Contact";
-    ContactText =
-      "If you have any questions about this acceptance of terms or about the Standing Forest Green Card website, please contact us via email [Contact Email] or phone [Contact Phone Number].";
-    Acceptance2 = "Acceptance of Terms";
+    WelcomeTitle = "Welcome to the Green Card Standing Forest website.";
+  WelcomeText =
+    "By using this site, you agree to the terms and conditions below:";
+  Acceptance1 = "1. Acceptance of Terms:";
+  Acceptance1Text =
+    "By financially collaborating with the project through the site, you fully accept the terms of this document. These terms may be updated periodically, and we will notify you of significant changes via the website or the registered e-mail. Continued use of the site after changes implies your acceptance.";
+  UseofSite = "2. Use of the Site:";
+  UseofSiteText =
+    "The site is a private initiative that promotes environmental preservation through trees adoption. It is intended for personal use and collaboration with the project. All content on this site, including texts, images, graphics, videos, and other materials, is protected by copyright and intellectual property laws. Any unauthorized use may result in legal penalties.";
+  Privacy = "3. Personal Data";
+  PrivacyText =
+    "We collect data such as Passport Number, e-mail and address for issuing the adoption contract and sending the Environmental Preservation Certificate. Data will be handled in accordance with the Brazilian General Personal Data Protection Law (LGPD – Lei Geral de Proteção de Dados) - Law No. 13,709/2018, and will be used exclusively for project purposes.";
+  LimitationofLiability = "4. Limitation of Liability";
+  LimitationofLiabilityText =
+    "Cartão Verde Floresta em Pé (Green Card Standing Forest) is committed to providing accurate information and correcting identified inconsistencies. However, we are not responsible for website interruptions or failures resulting from third-party services, such as internet providers, hosting, or your bank's payment services.";
+  GoverningLaw = "5. Applicable Law";
+  GoverningLawText =
+    "This acceptance term is governed by the laws of the Federative Republic of Brazil. Any disputes related to the use of this website will be submitted to the competent courts in Brazil.";
+  Contact = "6. Privacy and Contact";
+  ContactText =
+    "Your support for the initiative is protected by our Privacy Policy. For any questions, contact us at cartaoverde7@gmail.com.";
+  Acceptance2 = "By clicking 'I accept the terms'";
+  Acceptance2Text = "By clicking 'I accept the terms,' you confirm that you have read, understood, and agree to the above terms.";
+  Acceptance2 = "Acceptance of Terms";
     Acceptance2Text =
       "By clicking 'I Accept' or continuing to use this website, you acknowledge that you have read, understood, and agree to be bound by all the terms and conditions set forth in this acceptance of terms.";
     select = "I agree to the terms described above";
@@ -78,31 +74,31 @@ export function TranslateTextModal({ globalLanguage }) {
 
     WelcomeTitle = "Bem-vindo ao site da Cartão Verde Floresta em Pé.";
     WelcomeText =
-      "Ao acessar e utilizar este site, você concorda com os termos e condições descritos abaixo. Caso não concorde com algum dos termos, solicitamos que não utilize este site.";
-    Acceptance1 = " Aceitação dos Termos";
+      "Ao utilizar este site, você concorda com os termos e condições abaixo:";
+    Acceptance1 = "1. Aceitação dos Termos:";
     Acceptance1Text =
-      "Ao utilizar o site da Cartão Verde Floresta em Pé, você concorda em cumprir todos os termos e condições estabelecidos neste termo de aceite. Estes termos poderão ser alterados periodicamente, e o uso contínuo do site implicará na aceitação das alterações realizadas.";
-    UseofSite = "Uso do Site";
+      "Ao colaborar financeiramente com o projeto por meio do site, você aceita integralmente os termos deste documento. Estes termos podem ser atualizados periodicamente, e notificaremos você sobre alterações significativas por meio do site ou do e-mail cadastrado. O uso contínuo do site após as alterações implica sua aceitação.";
+    UseofSite = "2. Uso do Site:";
     UseofSiteText =
       "Este site destina-se ao uso pessoal e informativo. Qualquer uso comercial do conteúdo aqui apresentado, sem a devida autorização, é estritamente proibido. Você concorda em não modificar, copiar, distribuir, transmitir, exibir, executar, reproduzir, publicar, licenciar, criar trabalhos derivados, transferir ou vender qualquer informação, software, produtos ou serviços obtidos neste site.";
     IntellectualProperty = "Propriedade Intelectual";
     IntellectualPropertyText =
       "Todo o conteúdo deste site, incluindo textos, imagens, gráficos, logotipos, ícones, vídeos, áudios e outros materiais, é protegido por leis de direitos autorais e outras leis de propriedade intelectual. O uso não autorizado do conteúdo pode violar essas leis e resultar em sanções civis e criminais.";
-    Privacy = "Privacidade";
+    Privacy = "3. Dados Pessoais";
     PrivacyText =
-      "A Cartão Verde Floresta em Pé valoriza sua privacidade. As informações coletadas durante a navegação no site ou em interações serão tratadas conforme a nossa Política de Privacidade, disponível no site.";
-    LimitationofLiability = "Limitação de Responsabilidade";
+      "Coletamos dados como CPF e e-mail para emissão do contrato de adoção e envio do Certificado de Preservação Ambiental. Os dados serão tratados conforme a Lei Geral de Proteção de Dados Pessoais (LGPD) - Lei nº 13.709/2018, e utilizados exclusivamente para os fins do projeto.";
+    LimitationofLiability = "4. Limitação de Responsabilidade";
     LimitationofLiabilityText =
-      "A Cartão Verde Floresta em Pé não se responsabiliza por danos diretos, indiretos, incidentais, consequenciais ou punitivos resultantes do uso ou da incapacidade de usar este site. A empresa não garante que o site estará livre de erros ou interrupções, nem que qualquer informação disponibilizada será precisa ou completa.";
-    LinkstoThirdPartySites = "Links para Sites de Terceiros";
+      "A Cartão Verde Floresta em Pé compromete-se a fornecer informações precisas e corrigir inconsistências identificadas. No entanto, não nos responsabilizamos por interrupções do site ou falhas decorrentes de serviços de terceiros, como provedores de internet, hospedagem ou serviços de pagamento do seu banco.";
+    LinkstoThirdPartySites = "5. Links para Sites de Terceiros";
     LinkstoThirdPartySitesText =
       "Este site pode conter links para sites de terceiros, que são fornecidos apenas para conveniência do usuário. A Cartão Verde Floresta em Pé não endossa nem é responsável pelo conteúdo desses sites, nem por quaisquer danos ou perdas decorrentes do uso dos mesmos.";
-    GoverningLaw = "Lei Aplicável";
+    GoverningLaw = "6. Lei Aplicável";
     GoverningLawText =
       "Este termo de aceite é regido pelas leis da República Federativa do Brasil. Quaisquer disputas decorrentes do uso do site serão submetidas aos tribunais competentes do Brasil.";
-    Contact = "Contato";
+    Contact = "7. Privacidade e Contato";
     ContactText =
-      "Em caso de dúvidas sobre este termo de aceite ou sobre o site da Cartão Verde Floresta em Pé, entre em contato conosco através do e-mail [Email de Contato] ou telefone [Telefone de Contato].";
+      "Seu apoio à iniciativa é protegido por nossa Política de Privacidade. Em caso de dúvidas, entre em contato pelo e-mail cartaoverde7@gmail.com.";
     Acceptance2 = "Aceite dos Termos";
     Acceptance2Text =
       "Ao clicar em 'Aceito' ou ao continuar utilizando este site, você reconhece que leu, entendeu e concorda em se submeter a todos os termos e condições estabelecidos neste termo de aceite.";
@@ -121,35 +117,22 @@ export function TranslateTextModal({ globalLanguage }) {
     Title = "Términos de Aceptación y privacidad";
 
     WelcomeTitle = "Bienvenido al sitio web de Tarjeta Verde Bosque en Pie.";
-    WelcomeText =
-      "Al acceder y utilizar este sitio web, usted acepta los términos y condiciones descritos a continuación. Si no está de acuerdo con alguno de estos términos, le solicitamos que no utilice este sitio web.";
-    Acceptance1 = "Aceptación de los Términos";
-    Acceptance1Text =
-      "Al utilizar el sitio web de Tarjeta Verde Bosque en Pie, usted acepta cumplir con todos los términos y condiciones establecidos en esta aceptación de términos. Estos términos pueden ser modificados periódicamente, y el uso continuo del sitio implicará la aceptación de los cambios realizados.";
-    UseofSite = "Uso del Sitio";
-    UseofSiteText =
-      "Este sitio está destinado a uso personal e informativo. Cualquier uso comercial del contenido aquí presentado, sin la debida autorización, está estrictamente prohibido. Usted acepta no modificar, copiar, distribuir, transmitir, exhibir, ejecutar, reproducir, publicar, licenciar, crear trabajos derivados, transferir o vender cualquier información, software, productos o servicios obtenidos en este sitio.";
-    IntellectualProperty = "Propiedad Intelectual";
-    IntellectualPropertyText =
-      "Todo el contenido de este sitio, incluidos textos, imágenes, gráficos, logotipos, íconos, videos, audios y otros materiales, está protegido por leyes de derechos de autor y otras leyes de propiedad intelectual. El uso no autorizado del contenido puede violar estas leyes y resultar en sanciones civiles y penales.";
-    Privacy = "Privacidad";
-    PrivacyText =
-      "Tarjeta Verde Bosque en Pie valora su privacidad. La información recopilada durante la navegación en el sitio o en interacciones será tratada de acuerdo con nuestra Política de Privacidad, disponible en el sitio web.";
-    LimitationofLiability = "Limitación de Responsabilidad";
-    LimitationofLiabilityText =
-      "Tarjeta Verde Bosque en Pie no se responsabiliza por daños directos, indirectos, incidentales, consecuenciales o punitivos resultantes del uso o de la incapacidad de utilizar este sitio. La empresa no garantiza que el sitio estará libre de errores o interrupciones, ni que cualquier información proporcionada será precisa o completa.";
-    LinkstoThirdPartySites = "Enlaces a Sitios de Terceros";
-    LinkstoThirdPartySitesText =
-      "Este sitio puede contener enlaces a sitios de terceros, que se proporcionan solo para la conveniencia del usuario. Tarjeta Verde Bosque en Pie no respalda ni es responsable del contenido de estos sitios, ni de cualquier daño o pérdida derivados del uso de los mismos.";
-    GoverningLaw = "Ley Aplicable";
-    GoverningLawText =
-      "Esta aceptación de términos se rige por las leyes de la República Federativa de Brasil. Cualquier disputa derivada del uso del sitio será sometida a los tribunales competentes de Brasil.";
-    Contact = "Contacto";
-    ContactText =
-      "En caso de dudas sobre esta aceptación de términos o sobre el sitio web de Tarjeta Verde Bosque en Pie, póngase en contacto con nosotros a través del correo electrónico [Correo Electrónico de Contacto] o teléfono [Número de Teléfono de Contacto].";
-    Acceptance2 = "Aceptación de los Términos";
-    Acceptance2Text =
-      "Al hacer clic en 'Acepto' o continuar utilizando este sitio web, usted reconoce que ha leído, entendido y acepta someterse a todos los términos y condiciones establecidos en esta aceptación de términos.";
+  WelcomeText = "Al utilizar este sitio, acepta los términos y condiciones a continuación:";
+  Acceptance1 = "1. Aceptación de los Términos:";
+  Acceptance1Text = "Al colaborar financieramente con el proyecto a través del sitio, acepta plenamente los términos de este documento. Estos términos pueden actualizarse periódicamente, y le notificaremos sobre cambios significativos a través del sitio o del correo electrónico registrado. El uso continuo del sitio después de los cambios implica su aceptación.";
+  UseofSite = "2. Uso del Sitio:";
+  UseofSiteText = "El sitio es una iniciativa privada que promueve la preservación ambiental mediante la adopción de árboles. Está destinado para uso personal y para colaborar con el proyecto. Todo el contenido de este sitio, incluidos textos, imágenes, gráficos, videos y otros materiales, está protegido por leyes de derechos de autor y propiedad intelectual. Cualquier uso no autorizado puede resultar en sanciones legales.";
+  Privacy = "3. Datos Personales";
+  PrivacyText = "Recopilamos datos como Pasaporte, correo electrónico y dirección para la emisión del contrato de adopción y el envío del Certificado de Preservación Ambiental. Los datos serán tratados de acuerdo con la Ley General de Protección de Datos Personales (LGPD) - Ley Brasileña No. 13.709/2018, y utilizados exclusivamente para los fines del proyecto.";
+  LimitationofLiability = "4. Limitación de Responsabilidad";
+  LimitationofLiabilityText = "Cartão Verde Floresta em Pé (Tarjeta Verde Bosque en Pie) se compromete a proporcionar información precisa y corregir las inconsistencias identificadas. Sin embargo, no nos hacemos responsables de interrupciones del sitio o fallas derivadas de servicios de terceros, como proveedores de internet, alojamiento o servicios de pago de su banco.";
+  GoverningLaw = "5. Ley Aplicable";
+  GoverningLawText =
+    "Este término de aceptación está regido por las leyes de la República Federativa de Brasil. Cualquier disputa relacionada con el uso de este sitio será sometida a los tribunales competentes de Brasil.";
+  Contact = "6. Privacidad y Contacto";
+  ContactText = "Su apoyo a la iniciativa está protegido por nuestra Política de Privacidad. Para cualquier pregunta, contáctenos en cartaoverde7@gmail.com.";
+  Acceptance2 = "Al hacer clic en 'Acepto los términos'";
+  Acceptance2Text = "Al hacer clic en 'Acepto los términos,' confirma que ha leído, entendido y está de acuerdo con los términos anteriores.";
 
     select = "Acepto los términos descritos anteriormente";
     checkboxText = "Acepto los términos descritos anteriormente";

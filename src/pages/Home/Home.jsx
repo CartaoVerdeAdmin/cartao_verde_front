@@ -6,10 +6,8 @@ import {
   Section,
   Title,
   Column,
-  Image,
   ContainerCarousel,
 } from "./Styles";
-import { Icon } from "@assets/index";
 import { useGlobalLanguage } from "../../Stores/globalLanguage";
 import { TranslateTextHeader } from "./Translations";
 import { Button, VideoLarger, VideoSmall, DemoCarousel } from "@components";
@@ -44,20 +42,21 @@ export default function Home() {
         <Column>
           <Title>{translations.missionTitle}</Title>
           <p>{translations.missionText}</p>
-          <VideoSmall videoUrl="https://www.youtube.com/embed/RkzvCixHOVw" />
+          <VideoSmall videoUrl="https://www.youtube.com/embed/yzSEfZWjdlY?si=h2jNhIWQ-0JoxNn7" />
           <Button onClick={() => navigate("/sobre")}>
             {translations.buttonText}
           </Button>
         </Column>
-        <VideoLarger videoUrl="https://www.youtube.com/embed/RkzvCixHOVw" />
+        <VideoLarger videoUrl="https://www.youtube.com/embed/G8mPtWP-gaY?autoplay=1&mute=1&loop=1&playlist=G8mPtWP-gaY&controls=0&modestbranding=1" />
       </Section>
 
       <Section>
-        <VideoLarger videoUrl="https://www.youtube.com/embed/RkzvCixHOVw" />
+        <VideoLarger videoUrl="https://www.youtube.com/embed/IadJYF7Oqvo?autoplay=1&mute=1&loop=1&playlist=IadJYF7Oqvo&controls=0&modestbranding=1" />
         <Column>
           <Title>{translations.visionTitle}</Title>
           <p>{translations.visionText}</p>
-          <VideoSmall videoUrl="https://www.youtube.com/embed/RkzvCixHOVw" />
+          <VideoSmall videoUrl="https://www.youtube.com/embed/x0jCZj9UtiM?autoplay=1&mute=1&loop=1&playlist=x0jCZj9UtiM&controls=0&modestbranding=1" />
+          
         </Column>
       </Section>
 
@@ -69,9 +68,13 @@ export default function Home() {
           <p>{translations.valuesTextPt3}</p>
           <p>{translations.valuesTextPt4}</p>
         </Column>
-        <Image>
-          <img src={Icon} alt="Imagem de decoração" />
-        </Image>
+        <VideoLarger videoUrl="https://www.youtube.com/embed/-4K-Y8AcVH8?si=y_oagwIQbA8G8T3A&autoplay=1&mute=1&loop=1&playlist=-4K-Y8AcVH8&controls=0&modestbranding=1" />
+
+      </Section>
+      <Section>
+        <Button onClick={() => navigate("/comprar-arvores")}>
+              {translations.button2Text}
+        </Button>
       </Section>
     </Container>
   );
