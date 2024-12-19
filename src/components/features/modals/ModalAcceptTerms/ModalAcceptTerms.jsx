@@ -10,6 +10,7 @@ import {
   StyledCheckBox,
   ConteinerPixForms,
   FormsText,
+  Bold,
 } from "./Styles";
 import { LogoVerde } from "../../../../assets";
 import { Modal } from "antd";
@@ -155,17 +156,17 @@ export default function ModalAcceptTerms({ modal, onClose, price, years }) {
       <Container>
         <Header>{translations.Title}</Header>
         <Section>
-          <p>{translations.WelcomeTitle}</p>
+          <Bold>{translations.WelcomeTitle}</Bold>
           <p>{translations.WelcomeText}</p>
-          <p>{translations.Acceptance1}</p>
+          <Bold>{translations.Acceptance1}</Bold>
           <p>{translations.Acceptance1Text}</p>
-          <p>{translations.UseofSite}</p>
+          <Bold>{translations.UseofSite}</Bold>
           <p>{translations.UseofSiteText}</p>
-          <p>{translations.IntellectualPropery}</p>
+          <Bold>{translations.IntellectualPropery}</Bold>
           <p>{translations.IntellectualPropertyText}</p>
-          <p>{translations.Privacy}</p>
+          <Bold>{translations.Privacy}</Bold>
           <p>{translations.PrivacyText}</p>
-          <p>{translations.LimitationofLiability}</p>
+          <Bold>{translations.LimitationofLiability}</Bold>
           <p>{translations.LimitationofLiabilityText}</p>
         </Section>
 
@@ -174,13 +175,10 @@ export default function ModalAcceptTerms({ modal, onClose, price, years }) {
         </Image>
 
         <Section>
-          <p>{translations.LinkstoThirdPartySites}</p>
-          <p>{translations.LinkstoThirdPartySitesText}</p>
-          <p>{translations.GoverningLaw}</p>
+          <Bold>{translations.GoverningLaw}</Bold>
           <p>{translations.GoverningLawText}</p>
-          <p>{translations.Contact}</p>
+          <Bold>{translations.Contact}</Bold>
           <p>{translations.ContactText}</p>
-          <p>{translations.Acceptance2}</p>
           <p>{translations.Acceptance2Text}</p>
         </Section>
         <CheckboxLabel alert={checkBoxAlert}>
