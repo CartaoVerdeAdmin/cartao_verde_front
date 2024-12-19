@@ -8,7 +8,7 @@ export default function VideoLarger({ videoUrl }) {
         height="100%"
         src={videoUrl}
         title={"Video"}
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; loop;"
         allowFullScreen
       ></iframe>
     </VideoDivLarger>

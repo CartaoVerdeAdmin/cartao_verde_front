@@ -27,8 +27,8 @@ export const Logo = styled.img`
     height: 112px;
   }
   @media (max-width: ${breakpoints.mobile}) {
-    width: 150px;
-    height: 84px;
+    width: 135px;
+    height: 76px;
   }
 `;
 
@@ -36,30 +36,25 @@ export const Info = styled.div`
   justify-content: center;
   text-align: center;
   margin-right: 2rem;
+  color: ${colors.background.primary};
 
   @media (max-width: ${breakpoints.mobile}) {
-    display: none;
+    font-size: 0.5em;
+    display: block;
+    max-width: 13em;
+    margin-left: 1em;
+    margin-right: 0.7em;
   }
 `;
 
-export const SocialMedias = styled.div`
-  padding: 25px;
-  border-left: 2px solid white;
-  @media (max-width: ${breakpoints.desktop}) {
-    display: none;
-  }
-  @media (max-width: ${breakpoints.biggerScreen}) {
-    display: none;
-  }
-  @media (min-width: ${breakpoints.biggerScreen}) {
-    display: none;
-  }
-  @media (max-width: ${breakpoints.mobile}) {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
+export const Line = styled.p`
+  margin: 0; 
+  padding: 0; 
+  line-height: 1.2; 
+  text-align: left;
 `;
+
+
 
 export const Column = styled.div`
   display: flex;
