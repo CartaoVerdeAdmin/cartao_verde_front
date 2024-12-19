@@ -45,10 +45,10 @@ export function TranslateCertificate({ globalLanguage }) {
       "The concession is valid for the specified period, after which it may be renewed. The tree will remain in its natural location, with no possibility of removal or exploitation. The client has the right to visit the tree by prior appointment. Standing Forest Green Card guarantees the preservation and monitoring of the tree throughout the concession period. Thank you for supporting the preservation of our forest and contributing to a more sustainable future.";
 
     Signature = "Signature:";
-    Representant = "[Representative's Name] Standing Forest Green Card";
+    Representant = "Standing Forest Green Card";
     Contact = "Contact:";
     Email = "Email: cartaoverde7@gmail.com";
-    PhoneNumber = "Phone: [Contact Phone Number]";
+    PhoneNumber = "Phone: +55 75 99907-9903";
     Website = "Website: cartaoverdeflorestaempe.com.br";
   } else if (globalLanguage == "PT") {
     CertificateTitle1 = "Certificado de Concessão Temporária de Árvore";
@@ -73,10 +73,10 @@ export function TranslateCertificate({ globalLanguage }) {
       "A concessão é válida pelo período especificado, após o qual poderá ser renovada. A árvore permanecerá em seu local natural, sem possibilidade de remoção ou exploração. O cliente tem o direito de visitar a árvore  mediante agendamento prévio. A Cartão Verde Floresta em Pé garante a preservação e o monitoramento da árvore durante todo o período de concessão. Agradecemos por apoiar a preservação da nossa floresta e contribuir para um futuro mais sustentável.";
 
     Signature = "Assinatura:";
-    Representant = "[Nome do Representante] Cartão Verde Floresta em Pé";
+    Representant = "Cartão Verde Floresta em Pé";
     Contact = "Contato:";
     Email = "E-mail: cartaoverde7@gmail.com";
-    PhoneNumber = "Telefone: [Telefone de Contato]";
+    PhoneNumber = "Telefone: +55 75 99907-9903";
     Website = "Website: cartaoverdeflorestaempe.com.br";
   } else if (globalLanguage == "ES") {
     CertificateTitle1 = "Certificado de Concesión Temporal de Árbol";

@@ -47,11 +47,11 @@ export default function Home() {
             {translations.buttonText}
           </Button>
         </Column>
-        <VideoLarger videoUrl="https://www.youtube.com/embed/G8mPtWP-gaY?autoplay=1&mute=1&loop=1&playlist=G8mPtWP-gaY&controls=0&modestbranding=1" />
+        <VideoLarger videoUrl="https://www.youtube.com/embed/G8mPtWP-gaY?autoplay=0&mute=0&loop=1&playlist=G8mPtWP-gaY&controls=0&modestbranding=1" />
       </Section>
 
       <Section>
-        <VideoLarger videoUrl="https://www.youtube.com/embed/IadJYF7Oqvo?autoplay=1&mute=1&loop=1&playlist=IadJYF7Oqvo&controls=0&modestbranding=1" />
+        <VideoLarger videoUrl="https://www.youtube.com/embed/IadJYF7Oqvo?autoplay=0&mute=0&loop=1&playlist=IadJYF7Oqvo&controls=0&modestbranding=1" />
         <Column>
           <Title>{translations.visionTitle}</Title>
           <p>{translations.visionText}</p>
@@ -68,7 +68,7 @@ export default function Home() {
           <p>{translations.valuesTextPt3}</p>
           <p>{translations.valuesTextPt4}</p>
         </Column>
-        <VideoLarger videoUrl="https://www.youtube.com/embed/-4K-Y8AcVH8?si=y_oagwIQbA8G8T3A&autoplay=1&mute=1&loop=1&playlist=-4K-Y8AcVH8&controls=0&modestbranding=1" />
+        <VideoLarger videoUrl="https://www.youtube.com/embed/x0jCZj9UtiM?autoplay=0&loop=1&controls=0&playlist=x0jCZj9UtiM" />
 
       </Section>
       <Section>
