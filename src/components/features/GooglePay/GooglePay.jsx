@@ -36,7 +36,7 @@ const GoogleButton = ({ disabled, price, onClose, years }) => {
 
     const initializeGooglePay = () => {
       const paymentsClient = new window.google.payments.api.PaymentsClient({
-        environment: "PRODUCTION",
+        environment: "TEST",
       });
 
       const paymentDataRequest = {
@@ -52,16 +52,15 @@ const GoogleButton = ({ disabled, price, onClose, years }) => {
             tokenizationSpecification: {
               type: "PAYMENT_GATEWAY",
               parameters: {
-                gateway: "stripe",
-                'stripe:version': '2020-08-27',
-                'stripe:publishableKey': `${import.meta.env.STRIPE_KEY}`,
+                gateway: "example",
+                gatewayMerchantId: "exampleGatewayMerchantId",
               },
             },
           },
         ],
         merchantInfo: {
-          merchantId: `${import.meta.env.GOOGLE_ID}`,
-          merchantName: "Cartão Verde Floresta em Pé",
+          merchantId: "1234567891011",
+          merchantName: "example",
         },
         transactionInfo: {
           totalPriceStatus: "FINAL",
