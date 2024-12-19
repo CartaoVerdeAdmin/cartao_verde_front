@@ -175,8 +175,6 @@ export default function ModalAcceptTerms({ modal, onClose, price, years }) {
         </Image>
 
         <Section>
-          <Bold>{translations.LinkstoThirdPartySites}</Bold>
-          <p>{translations.LinkstoThirdPartySitesText}</p>
           <Bold>{translations.GoverningLaw}</Bold>
           <p>{translations.GoverningLawText}</p>
           <Bold>{translations.Contact}</Bold>

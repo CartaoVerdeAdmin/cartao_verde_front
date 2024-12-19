@@ -93,10 +93,10 @@ export function TranslateTextModal({ globalLanguage }) {
     LinkstoThirdPartySites = "5. Links para Sites de Terceiros";
     LinkstoThirdPartySitesText =
       "Este site pode conter links para sites de terceiros, que são fornecidos apenas para conveniência do usuário. A Cartão Verde Floresta em Pé não endossa nem é responsável pelo conteúdo desses sites, nem por quaisquer danos ou perdas decorrentes do uso dos mesmos.";
-    GoverningLaw = "6. Lei Aplicável";
+    GoverningLaw = "5. Lei Aplicável";
     GoverningLawText =
       "Este termo de aceite é regido pelas leis da República Federativa do Brasil. Quaisquer disputas decorrentes do uso do site serão submetidas aos tribunais competentes do Brasil.";
-    Contact = "7. Privacidade e Contato";
+    Contact = "6. Privacidade e Contato";
     ContactText =
       "Seu apoio à iniciativa é protegido por nossa Política de Privacidade. Em caso de dúvidas, entre em contato pelo e-mail cartaoverde7@gmail.com.";
     Acceptance2 = "Aceite dos Termos";

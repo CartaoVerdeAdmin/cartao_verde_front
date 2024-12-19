@@ -100,10 +100,10 @@ export function TranslateCertificate({ globalLanguage }) {
       "La concesión es válida por el período especificado, después del cual podrá ser renovada. El árbol permanecerá en su ubicación natural, sin posibilidad de remoción o explotación. El cliente tiene derecho a visitar el árbol previa cita. La Tarjeta Verde Bosque en Pie garantiza la preservación y el monitoreo del árbol durante todo el período de concesión. Gracias por apoyar la preservación de nuestro bosque y contribuir a un futuro más sostenible.";
 
     Signature = "Firma:";
-    Representant = "[Nombre del Representante] Tarjeta Verde Bosque en Pie";
+    Representant = "Tarjeta Verde Bosque en Pie";
     Contact = "Contacto:";
     Email = "Correo electrónico: cartaoverde7@gmail.com";
-    PhoneNumber = "Teléfono: [Número de Teléfono de Contacto]";
+    PhoneNumber = "Teléfono: +55 75 99907-9903";
     Website = "Sitio web: cartaoverdeflorestaempe.com.br";
   }
   return {
