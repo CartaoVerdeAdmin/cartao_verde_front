@@ -26,6 +26,11 @@ export const Container = styled.div`
     }
   }
 `;
+
+export const Bold = styled.p`
+  font-weight: bold;
+`
+
 export const Section = styled.div`
   display: flex;
   flex-direction: column;
