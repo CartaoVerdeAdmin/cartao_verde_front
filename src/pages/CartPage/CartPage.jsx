@@ -25,9 +25,9 @@ export default function CartPage() {
   };
 
   let options = [
-    { value: 0, label: "1" },
-    { value: 1, label: "2" },
-    { value: 2, label: "3" },
+    { value: 0, label: "1 ano" },
+    { value: 1, label: "2 anos" },
+    { value: 2, label: "3 anos" },
   ];
   return (
     <Container>

@@ -59,8 +59,8 @@ const GoogleButton = ({ disabled, price, onClose, years }) => {
           },
         ],
         merchantInfo: {
-          merchantId: "12345678901234567890",
-          merchantName: "Example Merchant",
+          merchantId: "1234567891011",
+          merchantName: "example",
         },
         transactionInfo: {
           totalPriceStatus: "FINAL",
